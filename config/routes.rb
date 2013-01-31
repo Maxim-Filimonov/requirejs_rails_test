@@ -1,4 +1,5 @@
 RailsRequestjs::Application.routes.draw do
+  match 'article' => 'article#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
