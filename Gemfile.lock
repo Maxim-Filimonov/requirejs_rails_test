@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/jwhitley/requirejs-rails.git
+  revision: 6cc90a538ada6beaa43023206fc16d8fd8cc6c37
+  specs:
+    requirejs-rails (0.9.1)
+      railties (>= 3.1.1, < 3.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -107,6 +114,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.11)
+  requirejs-rails!
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
